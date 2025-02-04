@@ -85,7 +85,7 @@ function Order() {
                 </div>
                 <div className="ItemDetails">
                   <div className="itemDetails">{item.name}</div>
-                  <div className="itemDetails">-</div>
+                  <div className="itemDetails">Qty: {item.quantity}</div>
                   <div className="itemDetails">Price- ${item.price}</div>
                 </div>
               </div>
